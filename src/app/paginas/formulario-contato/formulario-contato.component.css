@@ -1,0 +1,25 @@
+.container form{
+    display:flex;
+    flex-direction: column;
+}
+.container{
+    margin:10px;
+}
+
+.container label {
+    margin:10px;
+}
+
+.container input{
+    width:400px;
+}
+
+.container button{
+    margin:10px;
+    width:300px;
+}
+
+.container textarea{
+    margin:10px;
+    width:300px;
+}

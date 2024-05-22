@@ -1,0 +1,17 @@
+<div>
+    <ul>
+        <li>Nome:</li>
+        <li>{{contato.nome}}</li>
+        <li>Telefone:</li>
+        <li>{{contato.telefone}}</li>
+        <li>Email:</li>
+        <li>{{contato.email}}</li>
+        <li>Aniversario:</li>
+        <li>{{contato.aniversario}}</li>
+        <li>Redes:</li>
+        <li>{{contato.redes}}</li>
+    </ul>
+    <button [routerLink]="['/formulario', id]">Editar</button>
+    <button (click) = "cancelar()">Voltar</button>
+
+</div>

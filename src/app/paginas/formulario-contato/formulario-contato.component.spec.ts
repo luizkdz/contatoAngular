@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { FormularioContatoComponent } from './formulario-contato.component';
+import { RouterLink } from '@angular/router';
 
 describe('FormularioContatoComponent', () => {
   let component: FormularioContatoComponent;
@@ -8,7 +9,7 @@ describe('FormularioContatoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FormularioContatoComponent]
+      imports: [FormularioContatoComponent,RouterLink]
     })
     .compileComponents();
     
